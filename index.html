@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Service Request System</title>
+</head>
+<body>
+
+<h3>Service Request / Incident Form</h3>
+
+<input type="text" id="name" placeholder="Enter Your Name">
+<br><br>
+
+<input type="text" id="issue" placeholder="Describe the Issue">
+<br><br>
+
+<select id="status">
+    <option value="">Select Status</option>
+    <option value="New">New</option>
+    <option value="In Progress">In Progress</option>
+    <option value="Resolved">Resolved</option>
+</select>
+<br><br>
+
+<button onclick="submitRequest()">Submit</button>
+
+<p id="result"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
+
